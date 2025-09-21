@@ -1,0 +1,9 @@
+{
+  "query": {
+    "folder": "/srv"
+  },
+  "update": {
+    "checked": 1758431411288,
+    "version": "4.104.1"
+  }
+}

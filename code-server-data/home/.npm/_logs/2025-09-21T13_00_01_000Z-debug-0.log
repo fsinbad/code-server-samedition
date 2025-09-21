@@ -1,0 +1,177 @@
+0 verbose cli /home/coder/.nvm/versions/node/v22.19.0/bin/node /home/coder/.nvm/versions/node/v22.19.0/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/home/coder/.nvm/versions/node/v22.19.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/coder/.npmrc
+5 silly config load:file:/home/coder/.nvm/versions/node/v22.19.0/etc/npmrc
+6 verbose title npm install @iflow-ai/iflow-cli
+7 verbose argv "install" "--global" "@iflow-ai/iflow-cli"
+8 verbose logfile logs-max:10 dir:/home/coder/.npm/_logs/2025-09-21T13_00_01_000Z-
+9 verbose logfile /home/coder/.npm/_logs/2025-09-21T13_00_01_000Z-debug-0.log
+10 silly packumentCache heap:2105278464 maxSize:526319616 maxEntrySize:263159808
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest @iflow-ai/iflow-cli@*
+14 silly packumentCache full:https://registry.npmmirror.com/@iflow-ai%2fiflow-cli cache-miss
+15 http fetch GET 200 https://registry.npmmirror.com/@iflow-ai%2fiflow-cli 1298ms (cache miss)
+16 silly packumentCache full:https://registry.npmmirror.com/@iflow-ai%2fiflow-cli set size:53977 disposed:false
+17 silly placeDep ROOT @iflow-ai/iflow-cli@0.2.26 OK for:  want: *
+18 silly fetch manifest unzipper@^0.12.3
+19 silly packumentCache full:https://registry.npmmirror.com/unzipper cache-miss
+20 http fetch GET 200 https://registry.npmmirror.com/unzipper 103ms (cache miss)
+21 silly packumentCache full:https://registry.npmmirror.com/unzipper set size:29463 disposed:false
+22 silly placeDep node_modules/@iflow-ai/iflow-cli unzipper@0.12.3 OK for: @iflow-ai/iflow-cli@0.2.26 want: ^0.12.3
+23 silly fetch manifest bluebird@~3.7.2
+24 silly packumentCache full:https://registry.npmmirror.com/bluebird cache-miss
+25 silly fetch manifest duplexer2@~0.1.4
+26 silly packumentCache full:https://registry.npmmirror.com/duplexer2 cache-miss
+27 silly fetch manifest fs-extra@^11.2.0
+28 silly packumentCache full:https://registry.npmmirror.com/fs-extra cache-miss
+29 silly fetch manifest graceful-fs@^4.2.2
+30 silly packumentCache full:https://registry.npmmirror.com/graceful-fs cache-miss
+31 silly fetch manifest node-int64@^0.4.0
+32 silly packumentCache full:https://registry.npmmirror.com/node-int64 cache-miss
+33 http fetch GET 200 https://registry.npmmirror.com/bluebird 71ms (cache miss)
+34 silly packumentCache full:https://registry.npmmirror.com/bluebird set size:57345 disposed:false
+35 http fetch GET 200 https://registry.npmmirror.com/duplexer2 182ms (cache miss)
+36 silly packumentCache full:https://registry.npmmirror.com/duplexer2 set size:4082 disposed:false
+37 http fetch GET 200 https://registry.npmmirror.com/graceful-fs 183ms (cache miss)
+38 silly packumentCache full:https://registry.npmmirror.com/graceful-fs set size:23015 disposed:false
+39 http fetch GET 200 https://registry.npmmirror.com/fs-extra 187ms (cache miss)
+40 silly packumentCache full:https://registry.npmmirror.com/fs-extra set size:37690 disposed:false
+41 http fetch GET 200 https://registry.npmmirror.com/node-int64 190ms (cache miss)
+42 silly packumentCache full:https://registry.npmmirror.com/node-int64 set size:3547 disposed:false
+43 silly placeDep node_modules/@iflow-ai/iflow-cli bluebird@3.7.2 OK for: unzipper@0.12.3 want: ~3.7.2
+44 silly placeDep node_modules/@iflow-ai/iflow-cli duplexer2@0.1.4 OK for: unzipper@0.12.3 want: ~0.1.4
+45 silly placeDep node_modules/@iflow-ai/iflow-cli fs-extra@11.3.2 OK for: unzipper@0.12.3 want: ^11.2.0
+46 silly placeDep node_modules/@iflow-ai/iflow-cli graceful-fs@4.2.11 OK for: unzipper@0.12.3 want: ^4.2.2
+47 silly placeDep node_modules/@iflow-ai/iflow-cli node-int64@0.4.0 OK for: unzipper@0.12.3 want: ^0.4.0
+48 silly fetch manifest readable-stream@^2.0.2
+49 silly packumentCache full:https://registry.npmmirror.com/readable-stream cache-miss
+50 silly fetch manifest graceful-fs@^4.2.0
+51 silly packumentCache full:https://registry.npmmirror.com/graceful-fs cache-hit
+52 silly fetch manifest jsonfile@^6.0.1
+53 silly packumentCache full:https://registry.npmmirror.com/jsonfile cache-miss
+54 silly fetch manifest universalify@^2.0.0
+55 silly packumentCache full:https://registry.npmmirror.com/universalify cache-miss
+56 http fetch GET 200 https://registry.npmmirror.com/universalify 43ms (cache miss)
+57 silly packumentCache full:https://registry.npmmirror.com/universalify set size:3885 disposed:false
+58 http fetch GET 200 https://registry.npmmirror.com/jsonfile 51ms (cache miss)
+59 silly packumentCache full:https://registry.npmmirror.com/jsonfile set size:9531 disposed:false
+60 http fetch GET 200 https://registry.npmmirror.com/readable-stream 109ms (cache miss)
+61 silly packumentCache full:https://registry.npmmirror.com/readable-stream set size:40678 disposed:false
+62 silly placeDep node_modules/@iflow-ai/iflow-cli readable-stream@2.3.8 OK for: duplexer2@0.1.4 want: ^2.0.2
+63 silly fetch manifest core-util-is@~1.0.0
+64 silly packumentCache full:https://registry.npmmirror.com/core-util-is cache-miss
+65 silly fetch manifest inherits@~2.0.3
+66 silly packumentCache full:https://registry.npmmirror.com/inherits cache-miss
+67 silly fetch manifest isarray@~1.0.0
+68 silly packumentCache full:https://registry.npmmirror.com/isarray cache-miss
+69 silly fetch manifest process-nextick-args@~2.0.0
+70 silly packumentCache full:https://registry.npmmirror.com/process-nextick-args cache-miss
+71 silly fetch manifest safe-buffer@~5.1.1
+72 silly packumentCache full:https://registry.npmmirror.com/safe-buffer cache-miss
+73 silly fetch manifest string_decoder@~1.1.1
+74 silly packumentCache full:https://registry.npmmirror.com/string_decoder cache-miss
+75 silly fetch manifest util-deprecate@~1.0.1
+76 silly packumentCache full:https://registry.npmmirror.com/util-deprecate cache-miss
+77 http fetch GET 200 https://registry.npmmirror.com/safe-buffer 88ms (cache miss)
+78 silly packumentCache full:https://registry.npmmirror.com/safe-buffer set size:11685 disposed:false
+79 http fetch GET 200 https://registry.npmmirror.com/isarray 91ms (cache miss)
+80 silly packumentCache full:https://registry.npmmirror.com/isarray set size:3703 disposed:false
+81 http fetch GET 200 https://registry.npmmirror.com/inherits 97ms (cache miss)
+82 silly packumentCache full:https://registry.npmmirror.com/inherits set size:3419 disposed:false
+83 http fetch GET 200 https://registry.npmmirror.com/core-util-is 98ms (cache miss)
+84 silly packumentCache full:https://registry.npmmirror.com/core-util-is set size:1796 disposed:false
+85 http fetch GET 200 https://registry.npmmirror.com/process-nextick-args 97ms (cache miss)
+86 silly packumentCache full:https://registry.npmmirror.com/process-nextick-args set size:3341 disposed:false
+87 http fetch GET 200 https://registry.npmmirror.com/string_decoder 132ms (cache miss)
+88 silly packumentCache full:https://registry.npmmirror.com/string_decoder set size:5759 disposed:false
+89 http fetch GET 200 https://registry.npmmirror.com/util-deprecate 155ms (cache miss)
+90 silly packumentCache full:https://registry.npmmirror.com/util-deprecate set size:2289 disposed:false
+91 silly placeDep node_modules/@iflow-ai/iflow-cli jsonfile@6.2.0 OK for: fs-extra@11.3.2 want: ^6.0.1
+92 silly placeDep node_modules/@iflow-ai/iflow-cli universalify@2.0.1 OK for: fs-extra@11.3.2 want: ^2.0.0
+93 silly placeDep node_modules/@iflow-ai/iflow-cli core-util-is@1.0.3 OK for: readable-stream@2.3.8 want: ~1.0.0
+94 silly placeDep node_modules/@iflow-ai/iflow-cli inherits@2.0.4 OK for: readable-stream@2.3.8 want: ~2.0.3
+95 silly placeDep node_modules/@iflow-ai/iflow-cli isarray@1.0.0 OK for: readable-stream@2.3.8 want: ~1.0.0
+96 silly placeDep node_modules/@iflow-ai/iflow-cli process-nextick-args@2.0.1 OK for: readable-stream@2.3.8 want: ~2.0.0
+97 silly placeDep node_modules/@iflow-ai/iflow-cli safe-buffer@5.1.2 OK for: readable-stream@2.3.8 want: ~5.1.1
+98 silly placeDep node_modules/@iflow-ai/iflow-cli string_decoder@1.1.1 OK for: readable-stream@2.3.8 want: ~1.1.1
+99 silly placeDep node_modules/@iflow-ai/iflow-cli util-deprecate@1.0.2 OK for: readable-stream@2.3.8 want: ~1.0.1
+100 silly reify moves {}
+101 http cache @iflow-ai/iflow-cli@https://registry.npmmirror.com/@iflow-ai/iflow-cli/-/iflow-cli-0.2.26.tgz 0ms (cache hit)
+102 http cache util-deprecate@https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz 0ms (cache hit)
+103 http cache string_decoder@https://registry.npmmirror.com/string_decoder/-/string_decoder-1.1.1.tgz 0ms (cache hit)
+104 http cache safe-buffer@https://registry.npmmirror.com/safe-buffer/-/safe-buffer-5.1.2.tgz 0ms (cache hit)
+105 http cache process-nextick-args@https://registry.npmmirror.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz 0ms (cache hit)
+106 http cache universalify@https://registry.npmmirror.com/universalify/-/universalify-2.0.1.tgz 0ms (cache hit)
+107 http cache core-util-is@https://registry.npmmirror.com/core-util-is/-/core-util-is-1.0.3.tgz 0ms (cache hit)
+108 http cache isarray@https://registry.npmmirror.com/isarray/-/isarray-1.0.0.tgz 0ms (cache hit)
+109 http cache readable-stream@https://registry.npmmirror.com/readable-stream/-/readable-stream-2.3.8.tgz 0ms (cache hit)
+110 http cache fs-extra@https://registry.npmmirror.com/fs-extra/-/fs-extra-11.3.2.tgz 0ms (cache hit)
+111 http cache graceful-fs@https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+112 silly tarball no local data for @iflow-ai/iflow-cli@https://registry.npmmirror.com/@iflow-ai/iflow-cli/-/iflow-cli-0.2.26.tgz. Extracting by manifest.
+113 http cache inherits@https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+114 http cache jsonfile@https://registry.npmmirror.com/jsonfile/-/jsonfile-6.2.0.tgz 0ms (cache hit)
+115 silly tarball no local data for util-deprecate@https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz. Extracting by manifest.
+116 silly tarball no local data for string_decoder@https://registry.npmmirror.com/string_decoder/-/string_decoder-1.1.1.tgz. Extracting by manifest.
+117 http cache bluebird@https://registry.npmmirror.com/bluebird/-/bluebird-3.7.2.tgz 0ms (cache hit)
+118 silly tarball no local data for safe-buffer@https://registry.npmmirror.com/safe-buffer/-/safe-buffer-5.1.2.tgz. Extracting by manifest.
+119 http cache unzipper@https://registry.npmmirror.com/unzipper/-/unzipper-0.12.3.tgz 0ms (cache hit)
+120 silly tarball no local data for process-nextick-args@https://registry.npmmirror.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz. Extracting by manifest.
+121 http cache node-int64@https://registry.npmmirror.com/node-int64/-/node-int64-0.4.0.tgz 0ms (cache hit)
+122 silly tarball no local data for universalify@https://registry.npmmirror.com/universalify/-/universalify-2.0.1.tgz. Extracting by manifest.
+123 silly tarball no local data for core-util-is@https://registry.npmmirror.com/core-util-is/-/core-util-is-1.0.3.tgz. Extracting by manifest.
+124 silly tarball no local data for isarray@https://registry.npmmirror.com/isarray/-/isarray-1.0.0.tgz. Extracting by manifest.
+125 http cache duplexer2@https://registry.npmmirror.com/duplexer2/-/duplexer2-0.1.4.tgz 0ms (cache hit)
+126 silly tarball no local data for readable-stream@https://registry.npmmirror.com/readable-stream/-/readable-stream-2.3.8.tgz. Extracting by manifest.
+127 silly tarball no local data for fs-extra@https://registry.npmmirror.com/fs-extra/-/fs-extra-11.3.2.tgz. Extracting by manifest.
+128 silly tarball no local data for graceful-fs@https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+129 silly tarball no local data for inherits@https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz. Extracting by manifest.
+130 silly tarball no local data for jsonfile@https://registry.npmmirror.com/jsonfile/-/jsonfile-6.2.0.tgz. Extracting by manifest.
+131 silly tarball no local data for bluebird@https://registry.npmmirror.com/bluebird/-/bluebird-3.7.2.tgz. Extracting by manifest.
+132 silly tarball no local data for unzipper@https://registry.npmmirror.com/unzipper/-/unzipper-0.12.3.tgz. Extracting by manifest.
+133 silly tarball no local data for node-int64@https://registry.npmmirror.com/node-int64/-/node-int64-0.4.0.tgz. Extracting by manifest.
+134 silly tarball no local data for duplexer2@https://registry.npmmirror.com/duplexer2/-/duplexer2-0.1.4.tgz. Extracting by manifest.
+135 http fetch GET 200 https://cdn.npmmirror.com/packages/core-util-is/1.0.3/core-util-is-1.0.3.tgz 239ms (cache miss)
+136 http fetch GET 200 https://cdn.npmmirror.com/packages/string_decoder/1.1.1/string_decoder-1.1.1.tgz 1061ms (cache miss)
+137 http fetch GET 200 https://cdn.npmmirror.com/packages/process-nextick-args/2.0.1/process-nextick-args-2.0.1.tgz 1123ms (cache miss)
+138 http fetch GET 200 https://cdn.npmmirror.com/packages/util-deprecate/1.0.2/util-deprecate-1.0.2.tgz 1178ms (cache miss)
+139 http fetch GET 200 https://cdn.npmmirror.com/packages/inherits/2.0.4/inherits-2.0.4.tgz 1216ms (cache miss)
+140 http fetch GET 200 https://cdn.npmmirror.com/packages/universalify/2.0.1/universalify-2.0.1.tgz 1223ms (cache miss)
+141 http fetch GET 200 https://cdn.npmmirror.com/packages/isarray/1.0.0/isarray-1.0.0.tgz 1223ms (cache miss)
+142 http fetch GET 200 https://cdn.npmmirror.com/packages/node-int64/0.4.0/node-int64-0.4.0.tgz 1242ms (cache miss)
+143 http fetch GET 200 https://cdn.npmmirror.com/packages/duplexer2/0.1.4/duplexer2-0.1.4.tgz 1242ms (cache miss)
+144 http fetch GET 200 https://cdn.npmmirror.com/packages/jsonfile/6.2.0/jsonfile-6.2.0.tgz 1250ms (cache miss)
+145 http fetch GET 200 https://cdn.npmmirror.com/packages/graceful-fs/4.2.11/graceful-fs-4.2.11.tgz 1263ms (cache miss)
+146 http fetch GET 200 https://cdn.npmmirror.com/packages/safe-buffer/5.1.2/safe-buffer-5.1.2.tgz 1309ms (cache miss)
+147 http fetch GET 200 https://cdn.npmmirror.com/packages/unzipper/0.12.3/unzipper-0.12.3.tgz 1334ms (cache miss)
+148 http fetch GET 200 https://cdn.npmmirror.com/packages/readable-stream/2.3.8/readable-stream-2.3.8.tgz 1383ms (cache miss)
+149 http fetch GET 200 https://cdn.npmmirror.com/packages/fs-extra/11.3.2/fs-extra-11.3.2.tgz 1530ms (cache miss)
+150 http fetch GET 200 https://cdn.npmmirror.com/packages/bluebird/3.7.2/bluebird-3.7.2.tgz 1570ms (cache miss)
+151 http fetch GET 200 https://cdn.npmmirror.com/packages/%40iflow-ai/iflow-cli/0.2.26/iflow-cli-0.2.26.tgz 2892ms (cache miss)
+152 info run @iflow-ai/iflow-cli@0.2.26 postinstall node_modules/@iflow-ai/iflow-cli node scripts/postinstall-vscode-plugin.js && node scripts/postinstall-idea-plugin.js
+153 info run @iflow-ai/iflow-cli@0.2.26 postinstall { code: 0, signal: null }
+154 silly ADD node_modules/@iflow-ai/iflow-cli
+155 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/util-deprecate
+156 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/string_decoder
+157 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/safe-buffer
+158 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/process-nextick-args
+159 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/isarray
+160 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/inherits
+161 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/core-util-is
+162 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/universalify
+163 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/jsonfile
+164 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/readable-stream
+165 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/node-int64
+166 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/graceful-fs
+167 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/fs-extra
+168 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/duplexer2
+169 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/bluebird
+170 silly ADD node_modules/@iflow-ai/iflow-cli/node_modules/unzipper
+171 verbose cwd /home/coder/project
+172 verbose os Linux 6.10.14-linuxkit
+173 verbose node v22.19.0
+174 verbose npm  v10.9.3
+175 verbose exit 0
+176 info ok

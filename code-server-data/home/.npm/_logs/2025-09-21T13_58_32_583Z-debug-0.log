@@ -1,0 +1,152 @@
+0 verbose cli /home/coder/.nvm/versions/node/v22.19.0/bin/node /home/coder/.nvm/versions/node/v22.19.0/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/home/coder/.nvm/versions/node/v22.19.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/coder/.npmrc
+5 silly config load:file:/home/coder/.nvm/versions/node/v22.19.0/etc/npmrc
+6 verbose title npm install @iflow-ai/iflow-cli
+7 verbose argv "install" "--global" "@iflow-ai/iflow-cli"
+8 verbose logfile logs-max:10 dir:/home/coder/.npm/_logs/2025-09-21T13_58_32_583Z-
+9 verbose logfile /home/coder/.npm/_logs/2025-09-21T13_58_32_583Z-debug-0.log
+10 silly packumentCache heap:2105278464 maxSize:526319616 maxEntrySize:263159808
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest @iflow-ai/iflow-cli@*
+14 silly packumentCache full:https://registry.npmjs.org/@iflow-ai%2fiflow-cli cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@iflow-ai%2fiflow-cli 1105ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/@iflow-ai%2fiflow-cli set size:undefined disposed:false
+17 silly placeDep ROOT @iflow-ai/iflow-cli@0.2.26 OK for:  want: *
+18 silly fetch manifest unzipper@^0.12.3
+19 silly packumentCache full:https://registry.npmjs.org/unzipper cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/unzipper 554ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/unzipper set size:undefined disposed:false
+22 silly placeDep node_modules/@iflow-ai/iflow-cli unzipper@0.12.3 OK for: @iflow-ai/iflow-cli@0.2.26 want: ^0.12.3
+23 silly fetch manifest bluebird@~3.7.2
+24 silly packumentCache full:https://registry.npmjs.org/bluebird cache-miss
+25 silly fetch manifest duplexer2@~0.1.4
+26 silly packumentCache full:https://registry.npmjs.org/duplexer2 cache-miss
+27 silly fetch manifest fs-extra@^11.2.0
+28 silly packumentCache full:https://registry.npmjs.org/fs-extra cache-miss
+29 silly fetch manifest graceful-fs@^4.2.2
+30 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+31 silly fetch manifest node-int64@^0.4.0
+32 silly packumentCache full:https://registry.npmjs.org/node-int64 cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/bluebird 197ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/bluebird set size:undefined disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/graceful-fs 615ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:undefined disposed:false
+37 http fetch GET 200 https://registry.npmjs.org/duplexer2 619ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/duplexer2 set size:undefined disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/fs-extra 967ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/fs-extra set size:undefined disposed:false
+41 http fetch GET 200 https://registry.npmjs.org/node-int64 1284ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/node-int64 set size:undefined disposed:false
+43 silly placeDep node_modules/@iflow-ai/iflow-cli bluebird@3.7.2 OK for: unzipper@0.12.3 want: ~3.7.2
+44 silly placeDep node_modules/@iflow-ai/iflow-cli duplexer2@0.1.4 OK for: unzipper@0.12.3 want: ~0.1.4
+45 silly placeDep node_modules/@iflow-ai/iflow-cli fs-extra@11.3.2 OK for: unzipper@0.12.3 want: ^11.2.0
+46 silly placeDep node_modules/@iflow-ai/iflow-cli graceful-fs@4.2.11 OK for: unzipper@0.12.3 want: ^4.2.2
+47 silly placeDep node_modules/@iflow-ai/iflow-cli node-int64@0.4.0 OK for: unzipper@0.12.3 want: ^0.4.0
+48 silly fetch manifest readable-stream@^2.0.2
+49 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-miss
+50 silly fetch manifest graceful-fs@^4.2.0
+51 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+52 silly fetch manifest jsonfile@^6.0.1
+53 silly packumentCache full:https://registry.npmjs.org/jsonfile cache-miss
+54 silly fetch manifest universalify@^2.0.0
+55 silly packumentCache full:https://registry.npmjs.org/universalify cache-miss
+56 http cache https://registry.npmjs.org/graceful-fs 13ms (cache hit)
+57 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:124285 disposed:false
+58 http fetch GET 200 https://registry.npmjs.org/universalify 177ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/universalify set size:undefined disposed:false
+60 http fetch GET 200 https://registry.npmjs.org/jsonfile 181ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/jsonfile set size:undefined disposed:false
+62 http fetch GET 200 https://registry.npmjs.org/readable-stream 186ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/readable-stream set size:undefined disposed:false
+64 silly placeDep node_modules/@iflow-ai/iflow-cli readable-stream@2.3.8 OK for: duplexer2@0.1.4 want: ^2.0.2
+65 silly fetch manifest isarray@~1.0.0
+66 silly packumentCache full:https://registry.npmjs.org/isarray cache-miss
+67 silly fetch manifest inherits@~2.0.3
+68 silly packumentCache full:https://registry.npmjs.org/inherits cache-miss
+69 silly fetch manifest safe-buffer@~5.1.1
+70 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+71 silly fetch manifest core-util-is@~1.0.0
+72 silly packumentCache full:https://registry.npmjs.org/core-util-is cache-miss
+73 silly fetch manifest string_decoder@~1.1.1
+74 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-miss
+75 silly fetch manifest util-deprecate@~1.0.1
+76 silly packumentCache full:https://registry.npmjs.org/util-deprecate cache-miss
+77 silly fetch manifest process-nextick-args@~2.0.0
+78 silly packumentCache full:https://registry.npmjs.org/process-nextick-args cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/string_decoder 169ms (cache miss)
+80 silly packumentCache full:https://registry.npmjs.org/string_decoder set size:undefined disposed:false
+81 http fetch GET 200 https://registry.npmjs.org/inherits 173ms (cache miss)
+82 silly packumentCache full:https://registry.npmjs.org/inherits set size:undefined disposed:false
+83 http fetch GET 200 https://registry.npmjs.org/safe-buffer 173ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:undefined disposed:false
+85 http fetch GET 200 https://registry.npmjs.org/isarray 178ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/isarray set size:undefined disposed:false
+87 http fetch GET 200 https://registry.npmjs.org/core-util-is 185ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/core-util-is set size:undefined disposed:false
+89 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 592ms (cache miss)
+90 silly packumentCache full:https://registry.npmjs.org/process-nextick-args set size:undefined disposed:false
+91 http fetch GET 200 https://registry.npmjs.org/util-deprecate 682ms (cache miss)
+92 silly packumentCache full:https://registry.npmjs.org/util-deprecate set size:undefined disposed:false
+93 silly placeDep node_modules/@iflow-ai/iflow-cli jsonfile@6.2.0 OK for: fs-extra@11.3.2 want: ^6.0.1
+94 silly placeDep node_modules/@iflow-ai/iflow-cli universalify@2.0.1 OK for: fs-extra@11.3.2 want: ^2.0.0
+95 silly placeDep node_modules/@iflow-ai/iflow-cli core-util-is@1.0.3 OK for: readable-stream@2.3.8 want: ~1.0.0
+96 silly placeDep node_modules/@iflow-ai/iflow-cli inherits@2.0.4 OK for: readable-stream@2.3.8 want: ~2.0.3
+97 silly placeDep node_modules/@iflow-ai/iflow-cli isarray@1.0.0 OK for: readable-stream@2.3.8 want: ~1.0.0
+98 silly placeDep node_modules/@iflow-ai/iflow-cli process-nextick-args@2.0.1 OK for: readable-stream@2.3.8 want: ~2.0.0
+99 silly placeDep node_modules/@iflow-ai/iflow-cli safe-buffer@5.1.2 OK for: readable-stream@2.3.8 want: ~5.1.1
+100 silly placeDep node_modules/@iflow-ai/iflow-cli string_decoder@1.1.1 OK for: readable-stream@2.3.8 want: ~1.1.1
+101 silly placeDep node_modules/@iflow-ai/iflow-cli util-deprecate@1.0.2 OK for: readable-stream@2.3.8 want: ~1.0.1
+102 silly reify mark retired [
+102 silly reify   '/home/coder/.nvm/versions/node/v22.19.0/lib/node_modules/@iflow-ai/iflow-cli',
+102 silly reify   '/home/coder/.nvm/versions/node/v22.19.0/bin/iflow'
+102 silly reify ]
+103 silly reify moves {
+103 silly reify   '/home/coder/.nvm/versions/node/v22.19.0/lib/node_modules/@iflow-ai/iflow-cli': '/home/coder/.nvm/versions/node/v22.19.0/lib/node_modules/@iflow-ai/.iflow-cli-DdfQYko4',
+103 silly reify   '/home/coder/.nvm/versions/node/v22.19.0/bin/iflow': '/home/coder/.nvm/versions/node/v22.19.0/bin/.iflow-fJ8Aucze'
+103 silly reify }
+104 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.8.tgz 0ms (cache hit)
+105 http cache @iflow-ai/iflow-cli@https://registry.npmjs.org/@iflow-ai/iflow-cli/-/iflow-cli-0.2.26.tgz 0ms (cache hit)
+106 http cache process-nextick-args@https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz 0ms (cache hit)
+107 http cache universalify@https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz 0ms (cache hit)
+108 http cache node-int64@https://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz 0ms (cache hit)
+109 http cache unzipper@https://registry.npmjs.org/unzipper/-/unzipper-0.12.3.tgz 0ms (cache hit)
+110 http cache fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-11.3.2.tgz 0ms (cache hit)
+111 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 0ms (cache hit)
+112 http cache jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.0.tgz 0ms (cache hit)
+113 http cache isarray@https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 0ms (cache hit)
+114 http cache bluebird@https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz 0ms (cache hit)
+115 http cache core-util-is@https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz 0ms (cache hit)
+116 http cache duplexer2@https://registry.npmjs.org/duplexer2/-/duplexer2-0.1.4.tgz 0ms (cache hit)
+117 http cache util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 0ms (cache hit)
+118 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz 0ms (cache hit)
+119 http cache inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+120 http cache graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+121 info run @iflow-ai/iflow-cli@0.2.26 postinstall node_modules/@iflow-ai/iflow-cli node scripts/postinstall-vscode-plugin.js && node scripts/postinstall-idea-plugin.js
+122 info run @iflow-ai/iflow-cli@0.2.26 postinstall { code: 0, signal: null }
+123 silly CHANGE node_modules/@iflow-ai/iflow-cli
+124 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/util-deprecate
+125 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/unzipper
+126 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/readable-stream
+127 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/universalify
+128 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/process-nextick-args
+129 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/safe-buffer
+130 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/string_decoder
+131 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/graceful-fs
+132 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/node-int64
+133 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/jsonfile
+134 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/fs-extra
+135 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/isarray
+136 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/inherits
+137 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/bluebird
+138 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/duplexer2
+139 silly CHANGE node_modules/@iflow-ai/iflow-cli/node_modules/core-util-is
+140 verbose cwd /home/coder/project
+141 verbose os Linux 6.10.14-linuxkit
+142 verbose node v22.19.0
+143 verbose npm  v10.9.3
+144 verbose exit 0
+145 info ok

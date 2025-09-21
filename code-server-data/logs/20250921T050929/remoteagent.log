@@ -1,0 +1,20 @@
+2025-09-21 05:09:29.962 [info] 
+
+
+
+
+2025-09-21 05:09:29.974 [info] Extension host agent started.
+2025-09-21 05:10:10.838 [info] [172.29.0.1][5ca5cb6d][ManagementConnection] New connection established.
+2025-09-21 05:10:11.645 [info] [172.29.0.1][74cf40e1][ExtensionHostConnection] New connection established.
+2025-09-21 05:10:11.745 [info] [172.29.0.1][74cf40e1][ExtensionHostConnection] <993> Launched Extension Host Process.
+2025-09-21 05:11:24.192 [info] [172.29.0.1][5ca5cb6d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-21 05:11:24.480 [info] [172.29.0.1][74cf40e1][ExtensionHostConnection] <993> Extension Host Process exited with code: 0, signal: null.
+2025-09-21 05:11:25.289 [info] [172.29.0.1][eeb40d9a][ManagementConnection] New connection established.
+2025-09-21 05:11:26.066 [info] [172.29.0.1][42dd21e4][ExtensionHostConnection] New connection established.
+2025-09-21 05:11:26.078 [info] [172.29.0.1][42dd21e4][ExtensionHostConnection] <3163> Launched Extension Host Process.
+2025-09-21 05:12:11.083 [info] [172.29.0.1][eeb40d9a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-21 05:12:11.281 [info] [172.29.0.1][42dd21e4][ExtensionHostConnection] <3163> Extension Host Process exited with code: 0, signal: null.
+2025-09-21 05:12:11.969 [info] [172.29.0.1][18d2b800][ManagementConnection] New connection established.
+2025-09-21 05:12:12.359 [info] [172.29.0.1][8b30f6fb][ExtensionHostConnection] New connection established.
+2025-09-21 05:12:12.369 [info] [172.29.0.1][8b30f6fb][ExtensionHostConnection] <4223> Launched Extension Host Process.
+2025-09-21 05:13:55.904 [info] [172.29.0.1][18d2b800][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

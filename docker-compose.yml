@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  code-server:
+    image: codercom/code-server:latest
+    container_name: code-server
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8680:8080"
+    volumes:
+      - ./code-server-data:/home/coder/.local/share/code-server
+      - ./project:/home/coder/project
+      - ./srv:/srv 
+      - ./config.yaml:/home/coder/.config/code-server/config.yaml
+    environment:
+      - DOCKER_USER=${USER}
+      - PASSWORD=xiaoyibao@1234
+    user: "${UID:-1000}:${GID:-1000}"
+    stdin_open: true
+    tty: true

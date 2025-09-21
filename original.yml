@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+  code-server:
+    image: codercom/code-server:latest
+    container_name: code-server-origin
+    ports:
+      - "127.0.0.1:8280:8080"
+    volumes:
+      - "$HOME/.local/share/code-server:/home/coder/.local/share/code-server"
+      - "$PWD:/home/coder/project"
+      - "$PWD/code-server-data/home:/home/coder"
+    working_dir: /home/coder/project
+    user: "1000:1000"
+    environment:
+      - DOCKER_USER=$USER
+      - PASSWORD=xiaoyibao@1234
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+  

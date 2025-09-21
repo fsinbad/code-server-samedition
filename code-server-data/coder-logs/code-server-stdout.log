@@ -1,0 +1,78 @@
+[2025-09-21T05:04:58.218Z] info  code-server 4.104.1 af19dedfa93e36b57eb87a9a00b8d2fda75ab5e2
+[2025-09-21T05:04:58.219Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-09-21T05:04:58.241Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-09-21T05:04:58.241Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2025-09-21T05:04:58.241Z] info    - Authentication is enabled
+[2025-09-21T05:04:58.241Z] info      - Using password from /home/coder/.config/code-server/config.yaml
+[2025-09-21T05:04:58.241Z] info    - Not serving HTTPS
+[2025-09-21T05:04:58.241Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[2025-09-21T05:05:42.028Z] info  code-server 4.104.1 af19dedfa93e36b57eb87a9a00b8d2fda75ab5e2
+[2025-09-21T05:05:42.028Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-09-21T05:05:42.046Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-09-21T05:05:42.046Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2025-09-21T05:05:42.046Z] info    - Authentication is enabled
+[2025-09-21T05:05:42.046Z] info      - Using password from /home/coder/.config/code-server/config.yaml
+[2025-09-21T05:05:42.046Z] info    - Not serving HTTPS
+[2025-09-21T05:05:42.046Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[05:05:53] 
+
+
+
+
+[05:05:53] Extension host agent started.
+[05:05:53] Started initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+[05:05:53] Completed initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+[2025-09-21T05:09:14.839Z] info  code-server 4.104.1 af19dedfa93e36b57eb87a9a00b8d2fda75ab5e2
+[2025-09-21T05:09:14.840Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-09-21T05:09:14.851Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-09-21T05:09:14.851Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2025-09-21T05:09:14.851Z] info    - Authentication is enabled
+[2025-09-21T05:09:14.851Z] info      - Using password from /home/coder/.config/code-server/config.yaml
+[2025-09-21T05:09:14.851Z] info    - Not serving HTTPS
+[2025-09-21T05:09:14.851Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[05:09:29] 
+
+
+
+
+[05:09:29] Extension host agent started.
+[05:10:10] [172.29.0.1][5ca5cb6d][ManagementConnection] New connection established.
+[05:10:11] [172.29.0.1][74cf40e1][ExtensionHostConnection] New connection established.
+[05:10:11] [172.29.0.1][74cf40e1][ExtensionHostConnection] <993> Launched Extension Host Process.
+[05:11:24] [172.29.0.1][5ca5cb6d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:11:24] [172.29.0.1][74cf40e1][ExtensionHostConnection] <993> Extension Host Process exited with code: 0, signal: null.
+[05:11:25] [172.29.0.1][eeb40d9a][ManagementConnection] New connection established.
+[05:11:26] [172.29.0.1][42dd21e4][ExtensionHostConnection] New connection established.
+[05:11:26] [172.29.0.1][42dd21e4][ExtensionHostConnection] <3163> Launched Extension Host Process.
+[05:12:11] [172.29.0.1][eeb40d9a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:12:11] [172.29.0.1][42dd21e4][ExtensionHostConnection] <3163> Extension Host Process exited with code: 0, signal: null.
+[05:12:11] [172.29.0.1][18d2b800][ManagementConnection] New connection established.
+[05:12:12] [172.29.0.1][8b30f6fb][ExtensionHostConnection] New connection established.
+[05:12:12] [172.29.0.1][8b30f6fb][ExtensionHostConnection] <4223> Launched Extension Host Process.
+[05:13:55] [172.29.0.1][18d2b800][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2025-09-21T05:14:25.118Z] info  code-server 4.104.1 af19dedfa93e36b57eb87a9a00b8d2fda75ab5e2
+[2025-09-21T05:14:25.120Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-09-21T05:14:25.131Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-09-21T05:14:25.131Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2025-09-21T05:14:25.131Z] info    - Authentication is enabled
+[2025-09-21T05:14:25.131Z] info      - Using password from /home/coder/.config/code-server/config.yaml
+[2025-09-21T05:14:25.131Z] info    - Not serving HTTPS
+[2025-09-21T05:14:25.131Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[2025-09-21T05:15:34.177Z] info  code-server 4.104.1 af19dedfa93e36b57eb87a9a00b8d2fda75ab5e2
+[2025-09-21T05:15:34.178Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-09-21T05:15:34.190Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-09-21T05:15:34.190Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2025-09-21T05:15:34.191Z] info    - Authentication is enabled
+[2025-09-21T05:15:34.191Z] info      - Using password from $PASSWORD
+[2025-09-21T05:15:34.191Z] info    - Not serving HTTPS
+[05:16:02] 
+
+
+
+
+[05:16:02] Extension host agent started.
+[05:16:04] [172.29.0.1][3b090689][ManagementConnection] New connection established.
+[05:16:05] [172.29.0.1][94f4e8cf][ExtensionHostConnection] New connection established.
+[05:16:06] [172.29.0.1][94f4e8cf][ExtensionHostConnection] <1004> Launched Extension Host Process.
+[05:16:19] [172.29.0.1][3b090689][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:16:19] [172.29.0.1][94f4e8cf][ExtensionHostConnection] <1004> Extension Host Process exited with code: 0, signal: null.
