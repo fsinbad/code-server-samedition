@@ -4,6 +4,8 @@
 
 本项目使用 Docker Compose 部署 code-server，提供基于浏览器的 VS Code 开发环境。包含完整的 NVM、Node.js 和 iFlow CLI 自动化安装脚本。
 
+code-server仓库：https://github.com/coder/code-server 
+
 ## 配置文件说明
 
 ### docker-compose.yml 配置
